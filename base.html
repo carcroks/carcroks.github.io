@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Alexandre Le Gal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div id="p1">
+        <div id="presentation">
+            <h1>
+                Présentation
+            </h1>
+            <img src="images/placeholder.jpeg" alt="placeholder">
+            <p id="pres">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit repellendus voluptates aliquid sapiente porro ipsum temporibus eius fugiat adipisci. Est laudantium eum quam earum sed tempore nihil ducimus aliquid quaerat!
+            </p>
+            <p id="proj">
+                Cliquez sur les flêches ou descendez pour voir mes projets.
+            </p>
+        </div>
+        <div id = "arrowdiv">
+            <a id = "arrowlink" href="#p2">
+                <a class="arrow" href="#p2">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </a>
+        </div>
+    </div>
+    <div id="p2">
+        <h1>
+            Mettez votre curseur sur les projets pour les afficher
+        </h1>
+        <ul>
+            <li class="retex">
+                <p class="retexp">
+                    Développement d'une interface client serveur
+                </p>
+                <div class="retexspace" id="pixel">
+                    <div class="buttondiv">
+                        <button class="pdf" onclick="window.open('./pdfs/La guerre des pixels.pdf', '_blank')" type="button">
+                            fichier pdf
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <li class="retex">
+                <p class="retexp">
+                    Développement d'un jeu de plateau
+                </p>
+                <div class="retexspace" id="towa">
+                    <div class="buttondiv">
+                        <button class="pdf" onclick="window.open('./pdfs/Towa_jeu .pdf', '_blank')" type="button">
+                            fichier pdf
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <li class="retex">
+                <p class="retexp">
+                    Développement d'une IA de jeu de plateau
+                </p>
+                <div class="retexspace" id="towIA">
+                    <div class="buttondiv">
+                        <button class="pdf" onclick="window.open('./pdfs/Développement d’une IA.pdf', '_blank')" type="button">
+                            fichier pdf
+                        </button>
+                    </div>
+            </div>
+            </li>
+            <li class="retex">
+                <p class="retexp">
+                    Mise en place d'une base de donnée
+                </p>
+                <div class="retexspace" id="BD">
+                    <div class="buttondiv">
+                        <button class="pdf" onclick="window.open('./pdfs/Mise en place d’une base de donnée.pdf', '_blank')" type="button">
+                            fichier pdf
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <li class="retex">
+                <p class="retexp">
+                    Station météorologique
+                </p>
+                <div class="retexspace" id="odomo">
+                    <div class="buttondiv">
+                        <button class="pdf" onclick="window.open('./pdfs/Odomo.pdf', '_blank')" type="button">
+                            fichier pdf
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <li class="retex">
+                <p class="retexp">
+                    Développement d'un site web
+                </p>
+                <div class="retexspace" id="web">
+                    <div class="buttondiv">
+                        <button class="pdf" onclick="window.open('./pdfs/Développement d’un site web.pdf', '_blank')" type="button">
+                            fichier pdf
+                        </button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
