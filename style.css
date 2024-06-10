@@ -28,31 +28,58 @@ button{
   overflow: auto; 
 }
 
+#p3{
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto; 
+}
+
 #p2 h1{
   color:white;
   margin-top: 10vh;
 }
 
 #presentation{
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-    display: flex;
-    background-color: #322B2B;
-    margin-inline: 25rem;
-    border-radius: 5rem;
-    flex-direction: column;
-    align-items: center;
-    color: white;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  display: flex;
+  background-color: #322B2B;
+  margin-inline: 20rem;
+  border-radius: 5rem;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
 
-#pres{
-    margin: 30px;
-    text-align: center;
-    font-size: 150%;
+#presentation img{
+  border-radius: 4px;
+}
+
+#presentation div{
+  display: flex;
+  flex-direction: row;
+  margin-inline: 1.5rem;
+}
+
+#presentation div div img{
+  height: 20rem;
+}
+
+#presentation div div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pres{
+  margin-inline: 2rem;
+  font-weight: light;
+  font-size: 150%;
 }
 
 h1{
-    text-align: center;
+  text-align: center;
 }
 
 #proj{
@@ -63,12 +90,35 @@ h1{
   margin-bottom: 30px;
 }
 
+#contact{
+  position: absolute;
+  width: 20vw;
+  height: 15vh;
+  top: 75vh;
+  left: 7vw;
+}
 
-#arrowdiv{
+#contact p{
+  color: #322B2B;
+}
+
+#contact h2{
+  color: #322B2B;
+}
+
+#arrowdiv1{
   position: absolute;
   width: 8vw;
   height: 10vh;
-  top: 88vh;
+  top: 85vh;
+  left: 46vw;
+}
+
+#arrowdiv2{
+  position: absolute;
+  width: 8vw;
+  height: 10vh;
+  top: 185vh;
   left: 46vw;
 }
 
@@ -94,6 +144,11 @@ h1{
   transform: rotate(45deg);
   margin: -10px;
   animation: animate 2s infinite;
+}
+
+#arrowdiv2 .arrow span{
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
 }
 
 .arrow span:nth-child(2) {
@@ -126,6 +181,57 @@ ul{
   padding: 0;
 }
 
+#complist{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#complist h1{
+  width: 100%;
+  text-align: center;
+}
+
+.comp{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.comp h1{
+  width: 100%;
+  text-align: center;
+}
+
+.comp div{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 33%;
+  margin:0;
+  padding:0;
+  margin-bottom: 5%;
+
+}
+
+.comp div p{
+  color: white;
+  text-align: center;
+}
+
+.comp div img{
+  height: 7rem;
+  filter: grayscale(0.5);
+  transition: .3s ease-in-out;
+}
+
+.comp div img:hover{
+  filter: grayscale(0);
+  transform: scale(120%);
+}
+
 .retex{
   display: flex;
   width: 49vw;
@@ -136,7 +242,8 @@ ul{
 }
 
 .retexp{
-  background-color: white;
+  background-color: #322B2B;
+  color:white;
   width: 40rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -147,7 +254,7 @@ ul{
   font-size: 175%;
   margin: 0;
   z-index: 1;
-  border: solid 0.2rem #322B2B;
+  border: solid 0.2rem white;
   text-align: center;
 }
 
@@ -201,13 +308,6 @@ ul{
   width: 20%;
 }
 
-.open, .print{
-  background-color: #322B2B;
-}
-
-.open:hover, .print:hover{
-  background-color: #5a4e4e;
-}
 
 .pdf{
   background-color: #322B2B;
