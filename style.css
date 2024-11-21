@@ -350,6 +350,14 @@ ul{
   background-image: url(./images/optimisation.png);
 }
 
+#imple{
+  background-image: url(./images/Implémentation_d_une_structure_de_donnees.png);
+}
+
+#moteur{
+  background-image: url(./images/Developpement_du_moteur_physique_d_un_jeu.png);
+}
+
   @media (max-width:900px)  { /* smartphones, iPhone, portrait 480x320 phones */
     #p1{
       background-color: whitesmoke;
