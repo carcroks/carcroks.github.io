@@ -1,2 +1,2 @@
 # Portefolio
-developpement of my personal Portefolio
+developement of my personal Portefolio
